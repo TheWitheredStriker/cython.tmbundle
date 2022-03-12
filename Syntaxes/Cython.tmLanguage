@@ -142,7 +142,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(?:(import|include)|(from))\b</string>
+			<string>\b(?:(cimport|import|include)|(from))\b</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -184,7 +184,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void)\b</string>
+			<string>\b(api|asm|__asm__|auto|bool|_Bool|char|cdef|cpdef|ctypedef|_Complex|double|enum|extern|float|_Imaginary|inline|int|long|public|readonly|short|signed|struct|typedef|union|unsigned|void)\b</string>
 			<key>name</key>
 			<string>storage.type.cython</string>
 		</dict>
@@ -1484,7 +1484,7 @@
 		<key>illegal_names</key>
 		<dict>
 			<key>match</key>
-			<string>\b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield)\b</string>
+			<string>\b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|gil|if|import|in|is|lambda|not|nogil|or|pass|print|raise|return|try|while|with|yield)\b</string>
 			<key>name</key>
 			<string>invalid.illegal.name.cython</string>
 		</dict>
