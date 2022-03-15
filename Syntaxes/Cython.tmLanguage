@@ -180,7 +180,7 @@
 			<key>comment</key>
 			<string>keywords that haven't fit into other groups (yet).</string>
 			<key>match</key>
-			<string>\b(as|assert|del|exec|print)\b</string>
+			<string>\b(as|assert|del|exec|print|namespace)\b</string>
 		</dict>
 		<dict>
 			<key>match</key>
