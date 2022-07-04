@@ -1193,7 +1193,7 @@
 			<key>match</key>
 			<string>(?x)\b(
 				basestring|bool|buffer|classmethod|complex|dict|enumerate|file|
-				float|frozenset|int|list|long|object|open|reversed|set|
+				float|frozenset|int|list|long|object|open|reversed|set|size_t|
 				slice|staticmethod|str|super|tuple|type|unicode|xrange
 			)\b</string>
 			<key>name</key>
