@@ -184,7 +184,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(api|asm|__asm__|auto|basestring|bint|bool|_Bool|bytearray|bytes|char|cdef|cpdef|ctypedef|_Complex|double|enum|extern|float|gil|_Imaginary|inline|int|long|nogil|public|readonly|short|signed|struct|typedef|union|unicode|unsigned|void)\b</string>
+			<string>\b(api|asm|__asm__|auto|basestring|bint|bool|_Bool|bytearray|bytes|char|cdef|cpdef|ctypedef|_Complex|double|enum|extern|float|gil|_Imaginary|inline|int|long|nogil|public|readonly|short|signed|size_t|struct|typedef|union|unicode|unsigned|void)\b</string>
 			<key>name</key>
 			<string>storage.type.cython</string>
 		</dict>
